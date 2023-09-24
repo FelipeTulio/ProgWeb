@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+		<title>Tag XHTML: form</title>
+	</head>
+	<body>
+		<div>
+			<h1>Tag XHTML: form</h1>
+	<h2>Exemplo</h2>
+<code class=”exemplo”>
+
+Um formulário HTML simples com dois campos de entrada e um botão enviar: <br/><br/>
+
+
+&lt;form action="form_action.asp" method="get"&gt;&lt;br/&gt;<br/>
+
+   Nome: &lt;input type="text" name="fname" /&gt; &lt;br />&lt;br/&gt;<br/>
+   
+   Sobrenome: &lt;input type="text" name="lname" /&gt; &lt;br />&lt;br/&gt;<br/>
+   
+   &lt;input type="submit" value="Submit" /&gt;&lt;br/&gt;<br/>
+   
+   
+&lt;/ form&gt;&lt;br/&gt;<br/><br/>
+</code>
+<form action="form_action.asp" method="get"><br/>
+   Nome: <input type="text" name="fname" /> <br /><br/>
+   Sobrenome: <input type="text" name="lname" /> <br /><br/>
+   <input type="submit" value="Submit" /><br/>
+</ form><br/>
+
+
+<h2>Definição e uso</h2>
+
+A tag <form> é usado para criar um formulário HTML para entrada do usuário. <br/>
+
+Um formulário pode conter elementos de entrada, como campos de texto, checkboxes, <br/>botões de rádio, botões de envio e muito mais. Uma forma também pode conter <br/>menus select, textarea, fieldset, legend, e elementos do rótulo. <br/>
+
+Os formulários são usados para transmitir dados para um servidor. <br/>
+
+
+
+
+
+</p>
+			
+			<h2>Atributos opcionais</h2>
+			<table summary="Descreve os atributos opcionais">
+				<thead>
+					<tr>
+						<th>Atributo</th>
+						<th>Valor</th>
+						<th>Descrição</th>
+						<th>DTD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+    <td>accept</td>
+
+    <td><i>MIME_type</i></td>
+
+    <td>Specifies the types of files that can be submitted through a file upload</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>accept-charset</td>
+
+    <td><i>charset</i></td>
+
+    <td>Specifies the character-sets the server can handle for form-data</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>enctype</td>
+
+    <td>application/x-www-form-urlencoded<br />
+
+	multipart/form-data<br />
+
+	text/plain</td>
+
+    <td>Specifies how form-data should be encoded before sending it to a server</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>method</td>
+
+    <td>get<br />
+
+      post</td>
+
+    <td>Specifies how to send form-data</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>name</td>
+
+    <td><i>name</i></td>
+
+    <td>Specifies the name for a form</td>
+
+    <td>TF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>target</td>
+
+    <td>_blank<br />
+
+      _self<br/>
+
+      _parent<br/>
+
+      _top<br/>
+
+	<i>framename</i></td>
+
+    <td><span class="deprecated">Deprecated.</span> Specifies where to open the action URL</td>
+
+    <td>TF</td>
+
+  </tr>
+
+				</tbody>
+			</table>
+			
+			<h2>Atributos padrão</h2>
+			<p><i>DTD: S = Strict; T = Transitional; F = Frameset</i></p>
+			<table summary="Descreve os atributos padr�o">
+				<thead>
+					<tr>
+						<th>Atributo</th>
+						<th>Valor</th>
+						<th>Descrição</th>
+						<th>DTD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+    <td>class</td>
+
+    <td><i>classname</i></td>
+
+    <td>Specifies a classname for an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>dir</td>
+
+    <td>rtl<br />
+
+	ltr</td>
+
+    <td>Specifies the text direction
+
+	for the content in an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>id</td>
+
+    <td><i>id</i></td>
+
+    <td>Specifies a unique id for an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>lang</td>
+
+    <td><i>language_code</i></td>
+
+    <td>Specifies a language code for the content in an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>style</td>
+
+    <td><i>style_definition</i></td>
+
+    <td>Specifies an inline style for an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>title</td>
+
+    <td><i>text</i></td>
+
+    <td>Specifies extra information about an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>xml:lang</td>
+
+    <td><i>language_code</i></td>
+
+    <td>Specifies a language code for the content in an element, in 
+
+	XHTML documents</td>
+
+    <td>STF</td>
+
+  </tr>
+
+				</tbody>
+			</table>
+		</div>
+		
+		<div class="rodape">
+			<a class="inicio" href="index.html">Início</a>
+		</div>
+	</body>
+</html>

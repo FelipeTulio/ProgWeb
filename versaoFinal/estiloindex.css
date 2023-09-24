@@ -1,0 +1,53 @@
+body
+{
+	background-color: #E0E0D4;
+	
+}
+
+
+h1
+{
+	padding: 50px 30px 50px 0px;
+	border: solid thin black;
+	background-color: #ED917A;
+	text-align: center;
+	
+	
+}
+
+h2
+{
+	padding: 10px 30px 10px 0px;
+	border: solid thin black;
+	background-color: #ED917A;
+	text-align: left;
+	
+}
+
+
+p
+{
+	font-family: "Times New Roman", Arial;	
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+a
+{
+	color:blue;	
+}
+
+a:link
+{
+	color:green;
+}
+
+a:visited
+{
+	color:red;
+}
+
+a:hover
+{
+	background-color: gray;
+}

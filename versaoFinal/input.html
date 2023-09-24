@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+		<title>Tag Input</title>
+	</head>
+		<body>
+		<div>
+			<h1>XHTML Tag Input</h1>
+					<h2>Exemplo</h2>
+			
+			<code class=”exemplo”>
+Um formulário HTML simples com dois campos de entrada e um botão enviar: <br/><br/>
+
+
+&lt;form action="form_action.asp" method="get"&gt;&lt;br/&gt;<br/>
+
+   Nome: &lt;input type="text" name="fname" /&gt; &lt;br /&gt;<br/>
+   Sobrenome: &lt;input type="text" name="lname" /&gt; &lt;br /&gt;<br/>
+   &lt;input type="submit" value="Submit" /&gt;&lt;br/&gt;<br/>
+&lt;/ form&gt;<br/>
+
+
+
+<form action="form_action.asp" method="get"><br/>
+   Nome: <input type="text" name="fname" /> <br /><br/>
+   Sobrenome: <input type="text" name="lname" /> <br /><br/>
+   <input type="submit" value="Submit" /><br/><br/>
+</code>
+</ form><br/>
+				
+			<h2>Definição e uso</h2>
+			<p>A tag [input] é usado para selecionar informações do usuário.<br>Um campo de entrada pode variar de muitas formas, dependendo do tipo de atributo. Um campo de entrada pode ser um campo de texto, uma caixa de seleção, um campo de senha, um botão de rádio, um botão, e muito mais.<br><br></p>
+			
+
+			<h2>Atributos opcionais</h2>
+			<p><i>DTD: S = Strict; T = Transitional; F = Frameset</i></p>
+			<table summary="Descreve os atributos opcionais">
+				<thead>
+					<tr>
+						<th>Atributo</th>
+						<th>Valor</th>
+						<th>Descrição</th>
+						<th>DTD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>accept</td>
+						<td>MIME_type</td>
+						<td>Especifica os tipos de arquivos que podem ser submetidos através de um upload de arquivo.</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>align</td>
+						<td>left<br>right<br>top<br>middle<br>bottom</td>
+						<td>Obsoleta. Use estilos css em vez de XHTML4. <br>Especifica o alinhamento de uma entrada de imagem (apenas para type = "image").</td>
+						<td>TF</td>
+					</tr>
+					<tr>
+						<td>alt</td>
+						<td>text</td>
+						<td>Especifica um texto alternativo para uma entrada de imagem (apenas para type = "image").</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>checked</td>
+						<td>checked</td>
+						<td>Especifica que um elemento de entrada deve ser pré-selecionado quando a página carrega (para type = "checkbox" ou type = "radio").</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>disabled</td>
+						<td>disabled</td>
+						<td>Especifica que um elemento de entrada deve ser desativado quando a página é carregada.</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>maxlength</td>
+						<td>number</td>
+						<td>Especifica o comprimento máximo (em caracteres) de um campo de entrada (para type = "text" ou type = "password").</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>name</td>
+						<td>name</td>
+						<td>Especifica um nome para um elemento de entrada.</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>readonly</td>
+						<td>readonly</td>
+						<td>Especifica que um campo de entrada deve ser só de leitura (para type = "text" ou type = "password").</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>size</td>
+						<td>number</td>
+						<td>Especifica a largura de um campo de entrada.</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>src</td>
+						<td>url</td>
+						<td>Especifica o URL para uma imagem a ser exibida como um botão de envio (apenas para type = "image").</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>type</td>
+						<td>button<br>ckeckbox<br>file<br>hidden<br>image<br>password<br>radio<br>reset<br>submit<br>text</td>
+						<td>Especifica o tipo de um elemento de entrada.</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>value</td>
+						<td>value</td>
+						<td>Especifica o valor de um elemento de entrada.</td>
+						<td>STF</td>
+					</tr>
+			</table>
+			<h2>Atributos padrão</h2>
+			<p><i>DTD: S = Strict; T = Transitional; F = Frameset</i></p>
+			<table summary="Descreve os atributos padr�o">
+				<thead>
+					<tr>
+						<th>Atributo</th>
+						<th>Valor</th>
+						<th>Descrição</th>
+						<th>DTD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>accesskey</td>
+						<td>character</td>
+						<td>Especifica um atalho de teclado para acessar um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>class</td>
+						<td>classname</td>
+						<td>Especifica um nome de classe para um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>dir</td>
+						<td>rtl<br>ltr</td>
+						<td>Especifica a direção do texto para o conteúdo de um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>id</td>
+						<td>id<br>ltr</td>
+						<td>Especifica um id único para um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>lang</td>
+						<td>language_code<br>ltr</td>
+						<td>Especifica um código de linguagem para o conteúdo de um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>tabindex</td>
+						<td>number<br>ltr</td>
+						<td>Especifica a ordem de tabulação de um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>style</td>
+						<td>style_definition<br>ltr</td>
+						<td>Especifica um estilo interno para um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>title</td>
+						<td>text<br>ltr</td>
+						<td>Especifica informações adicionais sobre um elemento</td>
+						<td>STF</td>
+					</tr>
+					<tr>
+						<td>xml:lang</td>
+						<td>language_code</td>
+						<td>Especifica um código de linguagem para o conteúdo de um elemento, em documentos XHTML</td>
+						<td>STF</td>
+					</tr>
+				</tbody>
+			</table>
+			<br><br>
+		</div>
+		
+		<div class="rodape">
+			<a class="inicio" href="index.html">Início</a>
+		</div>
+	</body>
+</html>

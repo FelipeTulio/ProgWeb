@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		 <link rel="stylesheet" type="text/css" href="estilos.css" />
+		<title>Tag XHTML: object</title>
+	</head>
+	<body>
+		<div>
+			<h1>Tag XHTML: object</h1>
+			
+			<h2>Exemplo</h2>
+			
+			<code class=”exemplo”>
+Adicionar um objeto (arquivo Flash) para uma página HTML: <br/>
+
+&lt;object width="400" height="400" data="helloworld.swf"&gt; &lt;/ object&gt;<br/>
+
+	
+	<object width="400" height="400" data="helloworld.swf"> </object>
+</code>				
+			<h2>Definição e uso</h2>
+			<p>A marca &lt;object&gt; é usado para incluir objetos como imagens, áudio, vídeos, applets<br/> Java, ActiveX, PDF e Flash. <br/>
+
+O elemento de objeto se destinava a substituir os elementos img e applet. No entanto, <br/> por causa de erros e falta de suporte ao navegador, isso não aconteceu. <br/>
+
+O suporte objeto em browsers dependem do tipo de objeto. Infelizmente, os principais <br/>navegadores usam códigos diferentes para carregar o mesmo tipo de <br/>objeto. <br/>
+
+Felizmente, o elemento de objeto fornece uma solução. Se o elemento de objeto não <br/>for exibida, o código entre as &lt;object&gt; e &lt;/object&gt; será executado. Desta forma, <br/>podemos ter vários elementos objeto aninhado (um para cada navegador). </p>
+
+			
+
+			<h2>Atributos opcionais</h2>
+			<table summary="Descreve os atributos opcionais">
+				<thead>
+					<tr>
+						<th>Atributo</th>
+						<th>Valor</th>
+						<th>Descrição</th>
+						<th>DTD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+    <td>align</td>
+
+    <td>left<br />
+
+    right<br />
+
+    top<br />
+
+    bottom</td>
+
+    <td>Defines the text alignment around the object</td>
+
+    <td>TF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>archive</td>
+
+    <td><i>URL</i></td>
+
+    <td>A space separated list of URL's to archives. The archives contains
+
+      resources relevant to the object</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>border</td>
+
+    <td><i>pixels</i></td>
+
+    <td>Defines a border around the object</td>
+
+    <td>TF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>classid</td>
+
+    <td><i>class_ID</i></td>
+
+    <td>Defines a class ID value as set in the Windows Registry or 
+
+    a URL</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>codebase</td>
+
+    <td><i>URL</i></td>
+
+    <td>Defines where to find the code for the object</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>codetype</td>
+
+    <td><i>MIME_type</i></td>
+
+    <td>The internet media type of the code referred to by the 
+
+    classid attribute</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>data</td>
+
+    <td><i>URL</i></td>
+
+    <td>Defines a URL that refers to the object's data</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>declare</td>
+
+    <td>declare</td>
+
+    <td>Defines that the object should only be declared, not 
+
+    created or instantiated until needed</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>height</td>
+
+    <td><i>pixels</i></td>
+
+    <td>Defines the height of the object</td>
+
+    <td>STF</td>
+
+  </tr>
+
+    <tr>
+
+    <td>hspace</td>
+
+    <td><i>pixels</i></td>
+
+    <td>Defines the horizontal spacing around the object</td>
+
+    <td>TF</td>
+
+    </tr>
+
+    <tr>
+
+    <td>name</td>
+
+    <td><i>name</i></td>
+
+    <td>Defines the name for an object (to use in scripts)</td>
+
+    <td>STF</td>
+
+    </tr>
+
+    <tr>
+
+    <td>standby</td>
+
+    <td><i>text</i></td>
+
+    <td>Defines a text to display while the object is loading</td>
+
+    <td>STF</td>
+
+    </tr>
+
+    <tr>
+
+    <td>type</td>
+
+    <td><i>MIME_type</i></td>
+
+    <td>Defines the MIME type of data specified in the data attribute</td>
+
+    <td>STF</td>
+
+    </tr>
+
+    <tr>
+
+    <td>usemap</td>
+
+    <td><i>URL</i></td>
+
+    <td>Specifies a URL of a client-side image map to be used with the object</td>
+
+    <td>STF</td>
+
+    </tr>
+
+  <tr>
+
+    <td>vspace</td>
+
+    <td><i>pixels</i></td>
+
+    <td>Defines the vertical spacing around the object</td>
+
+    <td>TF</td>
+
+    </tr>
+
+  <tr>
+
+    <td>width</td>
+
+    <td><i>pixels</i></td>
+
+    <td>Defines the width of the object</td>
+
+    <td>STF</td>
+
+  </tr>
+				</tbody>
+			</table>
+			
+			<h2>Atributos padrão</h2>
+			<p><i>DTD: S = Strict; T = Transitional; F = Frameset</i></p>
+			<table summary="Descreve os atributos padr�o">
+				<thead>
+					<tr>
+						<th>Atributo</th>
+						<th>Valor</th>
+						<th>Descrição</th>
+						<th>DTD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+    <td>class</td>
+
+    <td><i>classname</i></td>
+
+    <td>Specifies a classname for an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>dir</td>
+
+    <td>rtl<br />
+
+	ltr</td>
+
+    <td>Specifies the text direction
+
+	for the content in an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>id</td>
+
+    <td><i>id</i></td>
+
+    <td>Specifies a unique id for an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>lang</td>
+
+    <td><i>language_code</i></td>
+
+    <td>Specifies a language code for the content in an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>style</td>
+
+    <td><i>style_definition</i></td>
+
+    <td>Specifies an inline style for an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>tabindex</td>
+
+    <td><i>number</i></td>
+
+    <td>Specifies the tab order of an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>title</td>
+
+    <td><i>text</i></td>
+
+    <td>Specifies extra information about an element</td>
+
+    <td>STF</td>
+
+  </tr>
+
+  <tr>
+
+    <td>xml:lang</td>
+
+    <td><i>language_code</i></td>
+
+    <td>Specifies a language code for the content in an element, in 
+
+	XHTML documents</td>
+
+    <td>STF</td>
+
+  </tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<div class="rodape">
+			<a class="inicio" href="index.html">Início</a>
+		</div>
+	</body>
+</html>
